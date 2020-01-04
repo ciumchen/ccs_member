@@ -1,0 +1,290 @@
+.mui-bar-nav {
+    box-shadow: none;
+    background: -webkit-gradient(linear, 100% 0, 0 0, from(#e75b0e), to(#eb3d3e));
+    background: -webkit-linear-gradient(right, #e75b0e, #eb3d3e);
+    background: -moz-linear-gradient(right, #e75b0e, #eb3d3e);
+    background: -o-linear-gradient(right, #e75b0e, #eb3d3e);
+    background: linear-gradient(right, #e75b0e, #eb3d3e);
+}
+.mui-pull-right{
+    padding: 7px;
+}
+.mui-pull-right img{
+    width: 25px;
+}
+.mui-bar-nav.mui-bar .mui-icon{
+    color:#fff;
+}
+.mui-bar-nav .mui-title{
+    text-align: left;
+    color:#fff;
+    padding: 2px 0;
+}
+.mui-bar-nav~.mui-content{
+    padding-bottom:50px;
+}
+
+.section{
+    background-color: #fff;
+    margin-bottom: 15px;
+}
+.section .section-title{
+    padding: 0 15px;
+    font-size: 14px;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #f3f3f3;    
+    display: flex;
+    justify-content: space-between;    
+}
+.section .section-title__left {
+    display: table-cell;
+}
+.section .section-title__left img{
+    width: 17px;
+    vertical-align: text-bottom;
+}
+.section .section-title__right {
+    font-size: 90%;
+    font-weight: 400;
+    color: #ccc;
+    display: table-cell;
+    vertical-align: middle;
+}
+.section .section-content {
+    padding: 15px;
+}
+.section .section-footer {
+    height: 40px;
+    display: table-cell;
+    vertical-align: middle;    
+    padding: 0 15px;
+    border-top: 1px solid #f3f3f3;
+    font-size: 8px;
+    line-height: 12px;
+    color: #696969;
+}
+.totalReward {
+    text-align: center;
+}
+.section .small_title{
+    font-size: 13px;
+    color: #8c8c8c;
+}
+.totalReward .mui-row{
+    color: #333;
+    font-size: 16px;
+}
+.statistics{
+    padding-bottom: 15px;
+}
+.statistics>div{
+    margin: 0 auto;
+}
+.statistics .statistics_number{
+    color: #e85020;
+    font-size: 30px;
+    line-height: 1.5em;
+}
+.statistics .statistics_btn{
+    text-align: center;
+}
+.statistics .statistics_btn span {
+    display: inline-block;
+    width: 80px;
+    padding: 3px 0;
+    font-size: 13px;
+    color: #fff;
+}
+.statistics .statistics_btn span.left-span {
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;    
+    background: #ea4333;
+}
+.statistics .statistics_btn span.right-span {
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background: #e75b0f; 
+}
+.rewardItem{
+    text-align: center;
+    font-size: 12px;
+    color: #8c8c8c;
+    padding-bottom: 10px;
+}
+.amountMoney{
+    color: #e7512e;
+}
+.rewardItem >img{
+    width: 25px;
+    height: 25px;
+}
+.datePicker>.input{
+    width: 125px;
+    padding: 0;
+    padding-left: 30px;
+    height: 30px;
+    font-size: 13px;
+    display: inline-block;
+    color: #333;
+    vertical-align: middle;
+    border: 1px solid #a9a9a9;
+    line-height: 30px;
+    position: relative;
+}
+.mui-icon-extra-regist{
+    font-size: 24px;
+    line-height: 30px;
+    position: absolute;
+    left: 2px;
+}
+.datePicker .mui-icon-search{
+    vertical-align: middle;
+    line-height: 30px;
+    background-color: #e8621d;
+    color: #fff;
+    padding: 0px 13px;
+}
+.section.history{
+    margin-bottom: 5px;
+    padding: 5% 5% 10px 5%;
+}
+.section.secrchRe{
+    padding-top:10px;
+}
+.dateArr{
+    color: #8c8c8c;
+    font-size: 14px;
+    padding: 0px 0 20px;
+}
+.dateArr >.mui-icon-closeempty{
+    float: right;
+}
+
+table {
+    width: 100%;
+    font-size: 12px;
+    line-height: 2em;
+    text-align: left;
+}
+/* 弹窗样式 */
+.x-dialog-wrap {
+    position: absolute;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    width: 90%;
+}
+.x-dialog {
+    background: #fff;
+}
+.x-dialog-header {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    box-shadow: none;
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px;     */
+    background: -webkit-gradient(linear, 100% 0, 0 0, from(#e75b0e), to(#eb3d3e));
+    background: -webkit-linear-gradient(right, #e75b0e, #eb3d3e);
+    background: -moz-linear-gradient(right, #e75b0e, #eb3d3e);
+    background: -o-linear-gradient(right, #e75b0e, #eb3d3e);
+    background: linear-gradient(right, #e75b0e, #eb3d3e);    
+}
+.x-dialog-header__close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+}
+.x-dialog-content {
+    background: #fff;
+    text-align: center;
+}
+.x-dialog-content h2 {
+    font-size: 16px;
+    font-weight: normal;
+    color: #333;
+    line-height: 36px;
+}
+.x-dialog-content em {
+    font-size: 10px;
+    font-weight: normal;
+    color: #e75b0f;
+    font-style: normal;
+}
+.x-dialog-content p {
+    font-size: 10px;
+    color: #666;
+    line-height: 20px;
+}
+.x-dialog-content .btn-submit {
+    width: 80%;
+    background: #e75b0f;
+    color: #fff;
+    border: none;
+}
+/* 弹窗表单 */
+
+.f-cb:after,.f-cbli li:after{display:block;clear:both;visibility:hidden;height:0;overflow:hidden;content:".";}
+.f-cb,.f-cbli li{zoom:1;}
+.f-ib{display:inline-block;*display:inline;*zoom:1;}
+.f-dn{display:none;}
+.f-db{display:block;}
+.f-fl{float:left;}
+.f-fr{float:right;}
+.m-form {
+	font-size: 12px;
+	padding: 10px;
+	color: #6e6e6e;
+}
+.m-form .form-item {
+    padding: 10px 0;
+    line-height: 30px;
+}
+.m-form .form-item-label {
+    float: left;
+    width: 90px;
+    margin-right: -90px;
+    text-align: right;
+    font-weight: bold;
+}
+.m-form .form-item-content {
+	position: relative;
+	margin-left: 100px;
+	border-bottom: 1px solid #d8d8dd;
+}
+.m-form input {
+	float: left;
+    border: none;
+    padding: 0;
+    margin: 0;
+    height: 30px;		
+}
+.m-form .coin-number input {
+	width: 80px;
+}
+.m-form .number-info{
+	color: #666;
+}
+/* 支付密码 */
+.m-form .icon-password {
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    right: 8px;
+	bottom: 0;
+	background: url(../../img/myInfo/goldencoin/zhuanzeng/eye-close.png);
+	background-size: contain;
+    background-repeat: no-repeat;	
+}
+/* 兑换金币成功弹窗 */
+.success-message {
+    font-size: 16px;
+    height: 150px;
+    line-height: 150px;
+    color: #6e6e6e;
+}

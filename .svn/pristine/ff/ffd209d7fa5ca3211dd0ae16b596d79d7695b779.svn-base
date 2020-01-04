@@ -1,0 +1,90 @@
+
+.mui-top-section{
+    height: 180px;
+    background: -webkit-gradient(linear, 100% 0, 0 0, from(#e75b0e), to(#eb3d3e));
+    background: -webkit-linear-gradient(right, #e75b0e, #eb3d3e);
+    background: -moz-linear-gradient(right, #e75b0e, #eb3d3e);
+    background: -o-linear-gradient(right, #e75b0e, #eb3d3e);
+    background: linear-gradient(right, #e75b0e, #eb3d3e);
+    width: 100%;
+}
+
+.account-setting{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #FFF;
+}
+.account-setting .mui-icon-gear>span{
+    font-size: 15px;
+}
+
+.account-info-detial{
+    position: relative;
+    top: 70px;
+    width: 100%;
+    clear: both;
+}
+.img-info{
+    margin-left: 20px;
+    float: left;
+}
+.img-info img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.name-detial{
+    float: left;
+    width: calc(100% - 85px);
+    padding-left: 20px;
+    color: #FFF;
+}
+.jifen-detial{
+    float: left;
+    width: calc(100% - 85px);
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.mui-badge-purple, .mui-badge-royal{
+    background-color: #ba3b21;
+}
+.sg-purple{
+    background-color: #d0321e;
+    color: #FFF;
+    border: 1px solid #c2bab5;
+}
+.tuijian-border{
+    border: 1px solid #f39800;
+}
+.top-arrowright{
+    color: #fff;
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.personList li{
+    font-size: 14px;
+    color: #333;
+}
+.personList .mui-icon{
+    color: #E75B0E;
+}
+ .textLeft {
+    position: absolute;
+    right: 32px;
+    font-size: 14px;
+    color: #505050;
+}
+.logout{
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.right_text{
+    position: absolute;
+    right: 30px;
+    font-size: 12px;
+    color: #c9c9c9;
+    top: 13px;
+}

@@ -1,0 +1,93 @@
+.white-bar-nav {
+	background: #fff;
+	color: #333;			
+}
+.white-bar-nav.mui-bar .mui-icon {
+	color: #333;
+}
+.white-bar-nav .mui-title {
+	color: #333;
+	text-align: center;	
+}
+/* 图片部分 */
+.share-poster .mui-content {
+	position: absolute;
+	top: 44px;
+	bottom: 51px;
+	left: 0;
+	width: 100%;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+.section-poster {
+	flex: 1;
+    background-image: url(../../img/market/marketing-bg.png);
+    background-size: cover;
+    background-position: center bottom;
+}
+/*  按钮部分 */
+.section-button-share {
+	background: #fff;
+	padding: 10px;
+}
+.btn-share {
+	display: block;
+	margin: 10px 17px; 
+	text-align: center;
+	line-height: 40px;
+	border-radius: 5px;			
+}
+.btn-share-instant {
+	color: #fff;
+	background: gradient(linear, 100% 0, 0 0, from(#e75b0e), to(#eb3d3e));
+	background: -webkit-gradient(linear, 100% 0, 0 0, from(#e75b0e), to(#eb3d3e));
+}
+.btn-share-instant:hover, .btn-share-instant:active {
+	color: #fff;		
+}
+.btn-share-qtcode {
+	color: #e75b0e;
+	border: 2px solid;
+}
+.btn-share-qtcode:hover, .btn-share-qtcode:active {
+	color: #e75b0e;		
+}
+
+/* 弹窗样式 */
+/* 弹窗样式 */
+.x-dialog-wrap {
+    position: absolute;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+    border-radius: 0;
+    width: 90%;
+}
+.x-dialog-wrap .mui-popover-arrow  {
+	display: none;
+}
+/* 立即分享弹窗 */
+#dialog-share-instant {
+    width: 80%;
+}
+#dialog-share-instant img {
+	max-width: 100%;
+	display: block;
+}
+
+/* 扫码分享弹窗 */
+#dialog-share-qtcode {
+    width: 80%;
+    text-align: center;
+    padding: 20px 15px;
+}
+#dialog-share-qtcode h2{
+    color: #e75b0e;
+    font-size: 16px;
+    line-height: 1.5;
+	padding: 0 40px;
+}
+#dialog-share-qtcode img {
+	max-width: 100%;
+}

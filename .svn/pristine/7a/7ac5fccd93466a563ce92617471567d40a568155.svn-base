@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/icons-extra.css">
+    <link rel="stylesheet" href="css/home/bottomTap.css">
+    <link rel="stylesheet" href="css/myInfo/myInfo.css">
+    <link rel="stylesheet" href="css/marketing/dialog-register-success.css">
+</head>
+<body>
+	<div class="mui-content">
+		<!-- 账户信息 -->
+	    <section class="mui-top-section">
+			<div class="account-setting" onclick="goLogin()">
+				<span class="mui-icon mui-icon-gear"><span>账号管理</span></span>
+			</div>
+			<div class="account-info-detial">
+				<div class="img-info">
+					<img src="img/myInfo/touxiang.png"/>
+				</div>
+				<div class="detail-wrap">
+					<div class="name-detial">
+						<span>张晓明</span>
+						<span class="mui-badge mui-badge-purple">V3</span>
+					</div>
+					<div class="jifen-detial">
+						<span class="mui-badge sg-purple">积分：243</span>
+						<!-- <span class="mui-badge sg-purple tuijian-border">推荐人：562358462</span> -->
+					</div>
+				</div>
+				<div class="today-price">
+					<div class="today-price-box">
+						<div>今日牌价</div>
+						<span class="number">1.88</span>
+					</div>
+				</div>
+			</div>
+			<!-- 点击签到 -->
+			<div class="click-check">
+				<img src="img/myInfo/click-check.png">
+			</div>
+		</section>
+		<!-- 消息中心 -->
+		<section class="mes-info">
+			<img src="img/myInfo/messageToast.png" class="mes-toast"/>
+			<span class="mess-title">消息中心</span>
+			<span class="mui-icon mui-icon-arrowright"></span>
+			<span class="mess-content">你有一条新的订单信息<span><img src="img/myInfo/point.png" class="point"/></span></span>
+		</section>
+		<!-- 我的奖金 -->
+		<section class="my-bonus common-section">
+			<div class="bonus-title">
+				<img src="img/myInfo/bonus-icon.png"/>
+				<span class="bonus-title-label">我的奖金</span>
+				<span class="mui-icon mui-icon-arrowright"></span>
+				<span class="more-info" onclick="gomyReward()">更多</span>
+			</div>
+			<ul class="mui-table-view mui-grid-view mui-grid-9">
+					<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+					    <a>
+					        <span class="mui-icon">
+					        	<img src="img/myInfo/amassjj.png"/>
+					        </span>
+					        <div class="mui-media-body title">累积奖金</div>
+					        <div class="mui-media-body">12000</div>
+					    </a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+					    <a>
+					        <span class="mui-icon">
+					        	<img src="img/myInfo/currentjj.png"/>
+					        </span>
+					        <div class="mui-media-body title">本期奖金</div>
+					        <div class="mui-media-body">1000</div>
+					    </a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+					    <a>
+					        <span class="mui-icon">
+								<img src="img/myInfo/recordedjj.png"/>
+					        </span>
+					        <div class="mui-media-body title">待入账</div>
+					        <div class="mui-media-body">200</div>
+					    </a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3" onclick="goPutForword()">
+					    <a>
+					        <span class="mui-icon">
+								<div>
+									<img src="img/myInfo/withderjj.png"/>
+								</div>
+					        </span>
+					        <div class="mui-media-body title">可提现</div>
+					        <div class="mui-media-body">8000</div>
+					    </a>
+					</li>
+		    </ul>
+		</section>
+		<!-- 数据金币 -->
+		<section class="my-bonus common-section">
+			<div class="bonus-title">
+				<img src="img/myInfo/goldencoin/icon-jinbi.png"/>
+				<span class="bonus-title-label">数据金币</span>
+				<span class="mui-icon mui-icon-arrowright"></span>
+				<span class="more-info" onclick="goGoldenCoin()">更多</span>
+			</div>
+			<ul class="mui-table-view mui-grid-view mui-grid-9">
+					<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+					    <a>
+					        <span class="mui-icon">
+					        	<img src="img/myInfo/goldencoin/icon-leiji.png"/>
+					        </span>
+					        <div class="mui-media-body title">累积</div>
+					        <div class="mui-media-body">1300</div>
+					    </a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+					    <a>
+					        <span class="mui-icon">
+					        	<img src="img/myInfo/goldencoin/icon-qiandao.png"/>
+					        </span>
+					        <div class="mui-media-body title">签到</div>
+					        <div class="mui-media-body">200</div>
+					    </a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+					    <a>
+					        <span class="mui-icon">
+								<img src="img/myInfo/goldencoin/icon-jifen.png"/>
+					        </span>
+					        <div class="mui-media-body title">积分</div>
+					        <div class="mui-media-body">1000</div>
+					    </a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3" onclick="goPutForword()">
+					    <a>
+					        <span class="mui-icon">
+					        	<img src="img/myInfo/goldencoin/icon-fenxiang.png"/>
+					        </span>
+					        <div class="mui-media-body title">分享</div>
+					        <div class="mui-media-body">100</div>
+					    </a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+					    <a>
+					        <span class="mui-icon">
+					        	<img src="img/myInfo/goldencoin/icon-jingying.png"/>
+					        </span>
+					        <div class="mui-media-body title">经营</div>
+					        <div class="mui-media-body">300</div>
+					    </a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3" onclick="goPutForword()">
+					    <a>
+					        <span class="mui-icon">
+					        	<img src="img/myInfo/goldencoin/icon-duihuan.png"/>
+					        </span>
+					        <div class="mui-media-body title">兑换</div>
+					        <div class="mui-media-body">300</div>
+					    </a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3" onclick="goPutForword()">
+					    <a>
+					        <span class="mui-icon">
+					        	<img src="img/myInfo/goldencoin/icon_shouzeng.png"/>
+					        </span>
+					        <div class="mui-media-body title">受赠</div>
+					        <div class="mui-media-body">300</div>
+					    </a>
+					</li>									
+		    </ul>
+		</section>
+		<!-- 我的分享 -->
+		<section class="my-share common-section">
+			<div class="bonus-title">
+				<img src="img/myInfo/my-share.png"/>
+				<span class="bonus-title-label">我的分享</span>
+				<span class="mui-icon mui-icon-arrowright"></span>
+				<span class="more-info" onclick="gomyShare()">更多</span>
+			</div>
+			<ul class="mui-table-view mui-grid-view mui-grid-9">
+					<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+					    <a>
+					        <span class="mui-icon">
+					        	<img src="img/myInfo/strenth-share.png"/>
+					        </span>
+					        <div class="mui-media-body title">直接分享</div>
+					        <div class="mui-media-body">60</div>
+					    </a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+					    <a>
+					        <span class="mui-icon">
+					        	<img src="img/myInfo/sale-count.png"/>
+					        </span>
+					        <div class="mui-media-body title">销售额</div>
+					        <div class="mui-media-body">80%</div>
+					    </a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+					    <a>
+					        <span class="mui-icon">
+					        	<img src="img/myInfo/all-team.png"/>
+					        </span>
+					        <div class="mui-media-body title">全部团队</div>
+					        <div class="mui-media-body">120</div>
+					    </a>
+					</li>
+					<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+					    <a>
+					        <span class="mui-icon">
+					        	<img src="img/myInfo/sale-count.png"/>
+					        </span>
+					        <div class="mui-media-body title">销售额</div>
+					        <div class="mui-media-body">90%</div>
+					    </a>
+					</li>
+		    </ul>
+		</section>
+		<!-- 其他菜单 -->
+		<section class="other-section common-section">
+			<ul class="mui-table-view mui-grid-view mui-grid-9">
+				<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3" onclick="gomyOrder()">
+				    <a>
+				        <span class="mui-icon">
+				        	<img src="img/myInfo/my-order.png"/>
+				        </span>
+				        <div class="mui-media-body other-title">我的订单</div>
+				    </a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+				    <a>
+				        <span class="mui-icon">
+				        	<img src="img/myInfo/coupon.png"/>
+				        </span>
+				        <div class="mui-media-body other-title">优惠券</div>
+				    </a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+				    <a>
+				        <span class="mui-icon">
+				        	<img src="img/myInfo/markVictor.png"/>
+				        </span>
+				        <div class="mui-media-body other-title">推荐供应商</div>
+				    </a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3" onclick="goSharePoster()">
+				    <a>
+				        <span class="mui-icon">
+				        	<img src="img/myInfo/share-poster.png"/>
+				        </span>
+				        <div class="mui-media-body other-title">分享海报</div>
+				    </a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+				    <a>
+				        <span class="mui-icon">
+				        	<img src="img/myInfo/my-footer.png"/>
+				        </span>
+				        <div class="mui-media-body other-title">我的足迹</div>
+				    </a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+				    <a>
+				        <span class="mui-icon">
+				        	<img src="img/myInfo/my-collection.png"/>
+				        </span>
+				        <div class="mui-media-body other-title">我的收藏</div>
+				    </a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+				    <a>
+				        <span class="mui-icon">
+				        	<img src="img/myInfo/help-center.png"/>
+				        </span>
+				        <div class="mui-media-body other-title">帮助中心</div>
+				    </a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3">
+				    <a>
+				        <span class="mui-icon">
+				        	<img src="img/myInfo/custom-Center.png"/>
+				        </span>
+				        <div class="mui-media-body other-title">客服中心</div>
+				    </a>
+				</li>
+		    </ul>
+		</section>
+	</div>
+	<!-- 底部导航 -->
+	<nav class="mui-bar mui-bar-tab home-bom-bor">
+	    <a class="mui-tab-item">
+	        <span class="mui-icon mui-icon-extra mui-icon-extra-cart"></span>
+	        <span class="mui-tab-label">购物</span>
+	    </a>
+	    <a class="mui-tab-item">
+	        <span class="mui-icon mui-icon-extra mui-icon-extra-express"></span>
+	        <span class="mui-tab-label">供应商</span>
+	    </a>
+	    <a class="mui-tab-item mui-active">
+	        <span class="mui-icon mui-icon-person-filled"></span>
+	        <span class="mui-tab-label">会员中心</span>
+	    </a>
+	</nav>
+
+	<!-- 注册成功弹窗 -->
+	<div id="dialog-register-success" class="mui-popover x-dialog-wrap">
+		<div class="inner-wrap">
+			<div class="btn-success-wrap">
+				<a href="javascript:;" class="btn-success">恭喜你注册成功！</a>
+			</div>
+			<!-- <div class="discounts-item">
+				<div class="discounts-wrap discounts-a">
+					<div class="left-text">
+						20<small>元</small>
+						<span class="extra">指定商品满29元使用</span>
+					</div>
+					<div class="right-text right-text-a">优惠券</div>
+				</div>
+				<div class="discounts-use discounts-use-a">
+					<h2>已入账</h2>
+					<p>立即使用</p>
+				</div>
+			</div> -->
+			<div class="discounts-item">
+				<div class="discounts-wrap discounts-b">
+					<div class="left-text">
+						20
+					</div>
+					<div class="right-text right-text-b">金币等价券</div>			
+				</div>
+				<div class="discounts-use discounts-use-b">
+					<h2>已入账</h2>
+					<p>查看</p>		
+				</div>			
+			</div>	
+			<div class="tip">进入CCS大数据采集平台即可使用<img src="img/market/arrow.png"></>	
+		</div>
+	</div>
+
+	<script type="text/javascript" charset="utf-8">
+      	mui.init();
+      	// 提现页面跳转
+      	function goPutForword () {
+      		mui.openWindow({
+				url:'views/myInfo/putForward.html'
+			});
+      	}
+		  // 我的分享页面跳转
+      	function gomyShare () {
+      		mui.openWindow({
+				url:'views/myInfo/myShare.html'
+			});
+      	}
+		    // 我的奖金页面跳转
+		function gomyReward () {
+      		mui.openWindow({
+				url:'views/myInfo/myReward.html'
+			});
+		}
+		// 跳转数据金币页面
+				
+		function goGoldenCoin () {
+      		mui.openWindow({
+				url:'views/myInfo/goldenCoin.html'
+			});
+		}		  
+		  //跳转我的订单
+		function gomyOrder () {
+      		mui.openWindow({
+				url:'views/myInfo/myOrder.html'
+			});
+      	}
+		    //去登陆
+		function goLogin () {
+      		mui.openWindow({
+				url:'views/login/login.html'
+			});
+      	}
+		// 分享海报
+		function goSharePoster () {
+			mui.openWindow({
+				url: 'views/marketing/sharePoster.html'
+			})
+		}
+		// 成功注册后弹出
+        mui('#dialog-register-success').popover('show', document.body)
+    </script>
+</body>
+</html>

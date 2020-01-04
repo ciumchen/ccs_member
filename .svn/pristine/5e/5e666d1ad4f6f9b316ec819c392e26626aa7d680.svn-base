@@ -1,0 +1,128 @@
+.menuStatistics{
+    background: -moz-linear-gradient(right, #e75b0e, #eb3d3e);
+    background: -webkit-gradient(linear, 100% 0, 0 0, from(#e75b0e), to(#eb3d3e));
+    background: -webkit-linear-gradient(right, #e75b0e, #eb3d3e);
+    background: -moz-linear-gradient(right, #e75b0e, #eb3d3e);
+    background: -o-linear-gradient(right, #e75b0e, #eb3d3e);
+    background: linear-gradient(right, #e75b0e, #eb3d3e);
+    height: 190px;
+    width: 100%;
+    border-radius:0;
+    margin-top: auto;
+}
+
+.pointBox{
+    position: relative;
+    top: 40px;
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pointTop{
+    font-size: 30px;
+    color: #F2F2F2;
+    font-weight: 600;
+}
+.pointCenter{
+    font-size: 14px;
+    color: #F2F2F2;
+    font-weight: 500;
+}
+.pointBottom{
+    width: 60%;
+    margin-left: 20%;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: solid 1px #c0c0c0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 20px;
+    color: #F2F2F2;
+    font-size: 12px;
+    background: #a32b2b;
+}
+
+.iconBox{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+.iconBox>div{
+    width: 33.333%;
+    float: left;
+}
+.spanIcon{
+    background: -moz-linear-gradient(right, #e75b0e, #eb3d3e);
+    background: -webkit-gradient(linear, 100% 0, 0 0, from(#e75b0e), to(#eb3d3e));
+    background: -webkit-linear-gradient(right, #e75b0e, #eb3d3e);
+    background: -moz-linear-gradient(right, #e75b0e, #eb3d3e);
+    background: -o-linear-gradient(right, #e75b0e, #eb3d3e);
+    background: linear-gradient(right, #e75b0e, #eb3d3e);
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    display: inline-block;
+    border: #F2F2F2 solid 2px;
+    color: #F2F2F2;
+    cursor: pointer;
+    border-radius:30px;
+}
+
+.spanIcon .mui-icon{
+    font-size: 15px;
+    position: relative;
+    top: -15px;
+    left: 20px;
+}
+.spanIcon .text{
+    font-size: 12px;
+    position: relative;
+    left: -10px;
+    top: 2px;
+}
+
+.mui-card{
+    margin: 0px;
+    box-shadow:none;
+}
+.datePicker{
+    width: 90%;
+    margin: 0 auto;
+}
+.datePicker>.input{
+    width: 110px;
+    padding: 0;
+    padding-left: 30px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 13px;
+    display: inline-block;
+    color: #a7a7a7;
+    vertical-align: middle;
+    border: 1px solid #b8b8b8;
+    position: relative;
+}
+.mui-icon-extra-regist {
+    line-height: 30px;
+    position: absolute;
+    top:6px;
+    left: 2px;
+}
+.datePicker .mui-icon-search{
+    display: inline-block;
+    background-color: #e8621d;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    height: 35px;
+}
+th{
+    text-align: center;
+}
+.pagination{
+    font-size: 12px;
+}

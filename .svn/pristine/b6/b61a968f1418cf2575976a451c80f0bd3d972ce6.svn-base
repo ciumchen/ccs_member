@@ -1,0 +1,123 @@
+#dialog-register-success {
+    position: absolute;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+    border-radius: 0;
+	text-align: center;
+	width: 310px;
+	padding: 5px;
+}
+#dialog-register-success .inner-wrap {
+	width: 300px;
+	height: 300px;
+    background-image: url(../../img/market/dialog-register-success-bg.png);
+    background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+.btn-success-wrap {
+	margin: 15px 0 20px;
+}
+.btn-success {
+	font-size: 12px;
+	height: 20px;
+	padding: 5px 20px;
+	color: #fff;
+	text-align: center;
+    background-image: url(../../img/market/btn-sucess-bg.png);
+    background-size: cover;
+    background-position: center;	
+}
+.btn-success:hover,  .btn-success:active{
+	color: #fff;
+}
+/* 优惠券 */
+.discounts-item {
+	margin: 68px 0;
+	display: flex;
+    justify-content: space-evenly;	
+}
+.discounts-wrap {
+	position: relative;
+	width: 170px;
+	height: 76px;
+    background-size: cover;
+    background-position: center;		
+}
+.discounts-a {
+	background-image: url(../../img/market/discounts-a.png);
+}
+.discounts-b {
+	background-image: url(../../img/market/discounts-b.png);
+}
+.discounts-item .left-text {
+    color: #fff;
+    line-height: 76px;
+    font-size: 48px;
+	width: 120px;	
+	height: 76px;
+	font-family: BebasNeue;
+}
+.discounts-item .left-text small {
+	font-size: 50%;	
+	margin-left: 2px;
+	vertical-align: 3px;
+}
+.discounts-item .left-text .extra {
+	position: absolute;
+    font-size: 10px;
+    left: 35px;
+    bottom: 1px;
+    line-height: 1;
+    width: 50px;	
+}
+.discounts-item .right-text {
+	width: 1em;
+    position: absolute;
+    right: 18px;
+    font-size: 11px;
+    line-height: 1.2;
+    color: #fff;
+}
+.discounts-item .right-text-a {
+    top: 18px;
+}
+.discounts-item .right-text-b {
+	top: 6px;
+}
+/*  */
+.discounts-item .discounts-use {
+	width: 65px;
+	height: 76px;	
+	padding: 15px 0;
+    background-size: cover;
+	background-position: center;	
+	background-image: url(../../img/market/discounts-use.png);	
+}
+.discounts-item .discounts-use h2 {
+	font-size: 16px;
+}
+.discounts-item .discounts-use p {
+	font-size: 14px;
+	display: inline-block;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;	
+}
+.discounts-item .discounts-use-a p{
+	color: #fc3666;
+    background-image: linear-gradient(90deg, #fc3666, #fb9257);
+}
+.discounts-item .discounts-use-b p{
+	color: #fc5933;
+	background-image: linear-gradient(90deg, #fc5933, #fbc246);
+}
+#dialog-register-success .tip {
+	font-size: 14px;
+	color: #666;
+}
+#dialog-register-success .tip img {
+	vertical-align: -2px;
+    max-height: 16px;
+    margin-left: 10px;	
+}

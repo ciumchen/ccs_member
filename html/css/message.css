@@ -1,0 +1,101 @@
+.topBar{
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    width: 100%;
+}
+.topBar span{
+    float: left;
+    width: 33.333%;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.active{
+    color: #ff4723;
+}
+.mui-card{
+    box-shadow: none;
+    min-height: 200px;
+    background: #fff;
+}
+
+.mui-card-content-inner{
+    margin-top: 50px;
+    font-size: 16px;
+    text-align: center;
+    color: #bfbfbf;
+}
+.tip_icon img{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 8px;
+}
+.tip_text2{
+    font-size: 12px;
+}
+
+.msgBox {
+    height: auto;
+}
+.msgBox .mui-card-content-inner{
+    margin-top: 0px;
+    text-align: left;
+}
+.msgBox span{
+    display: block;
+    color: #000;
+    text-align: left;
+    font-size: 13px;
+}
+.msgBox .box_title{
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+}
+.msgBox .box_context{
+    height: auto;
+}
+.msgBox .box_details{
+    height: 40px;
+    line-height: 40px;
+    color: #a5a5a5;
+}
+.msgBox .details{
+    display: inline-block;
+    width: 100%;
+    font-size: 13px;
+    text-align: left;
+    line-height: 30px;
+    border-top: 1px solid #a5a5a5;
+}
+
+
+.line{
+    width: 100%;
+    height: 20px;
+    background: #efeff4;
+}
+
+.messageTitle{
+    font-size: 14px;
+    color: #000000;
+    font-weight: 600;
+    line-height: 50px;
+}
+.messageTitle a{
+    color: #0f0f0f;
+}
+#systemMsg{
+    min-height: 50px;
+}
+#systemMsg .mui-card-content-inner{
+    margin-top: 0px;
+}
+
+.box_context label{
+    color: #f79657;
+}
+

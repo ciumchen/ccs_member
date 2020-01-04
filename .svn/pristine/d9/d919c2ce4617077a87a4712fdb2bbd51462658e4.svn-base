@@ -1,0 +1,241 @@
+.mui-bar-nav{
+	background-color: #FFF;
+}
+.mui-action-back{
+	color: #666;
+}
+.mui-input-group{
+	margin-top: 10px;
+}
+.mui-card{
+	margin: 0 0 10px 0 !important;
+    box-shadow:none;
+}
+.mui-card-content{
+	padding: 10px;
+    color: #333;
+}
+.mui-radio input[type=radio]:checked:before {
+    content: '\e442';
+    font-size: 20px;
+}
+.mui-checkbox input[type=checkbox]:checked:before, .mui-radio input[type=radio]:checked:before {
+    color: #e02e24;
+}
+.mui-radio input[type=radio]:before {
+    content: '\e411';
+    font-size: 20px;
+}
+.mui-card-link input{
+    left: 0 !important;
+    top: 25% !important;
+}
+.address_op_span span{
+    width: 40px;
+}
+
+.use_address {
+    line-height: 15px;
+    padding: 2px 5px;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    color: #6d6d72;
+    border: 1px solid #6d6d72;
+    border-radius: 3px;
+    font-size: 12px;
+
+}
+
+.mui-radio span{
+	padding-left: 25px;
+}
+
+.address-biaoshi{
+	color: #f23030;
+}
+.mui-icon-trash{
+	padding-left: 10px;
+}
+.shouAdd{
+	width: 88%;
+    height: 42px;
+    line-height: 42px;
+    background-color: #f23030;
+    color: #FFF;
+    text-align: center;
+    float: left;
+    margin-left: 5%;
+    margin-right: 2%;
+    border-radius: 5px;
+}
+.mui-icon-plusempty{
+	border: 1px solid #FFF;
+    background-color: #FFF;
+    color: #e02e24;
+    border-radius: 5px;
+    font-weight: 900;
+    vertical-align: middle;
+}
+.mui-icon-weixin{
+	vertical-align: middle;
+}
+.weixinAdd{
+	width: 44%;
+    height: 42px;
+    line-height: 42px;
+    background-color: rgb(8,195,3);
+    color: #FFF;
+    text-align: center;
+    float: left;
+    margin-right: 5%;
+    border-radius: 5px;
+}
+.font15{
+	font-size: 15px;
+}
+.check-box-div .address-biaoshi{
+	display: block;
+}
+.check-box-div .no-address {
+	display: none;
+}
+.no-check-box-div .address-biaoshi{
+	display: none;
+}
+.no-check-box-div  .no-address {
+	display: block;
+}
+/***********************************/
+.mui-adressWin-backdrop {
+	position: fixed;
+    z-index: 98;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-transition-duration: 400ms;
+    transition-duration: 400ms;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.48);
+    opacity: 1;
+    display: none;
+}
+
+.close-adressWin{
+    text-align: center;
+    border-bottom: 1px solid #DDD;
+    position: relative;
+    height: 44px;
+    line-height: 44px;
+}
+.close-adressWin .mui-icon-closeempty {
+    right: 0;
+    position: absolute;
+    font-size: 35px;
+    top: 0;
+}
+.adressWin{
+	height: 300px;
+    max-width: 500px;
+    width: 80%;
+	border-radius: 0;
+	position: fixed;
+	bottom: 0;
+	background-color: #FFF;
+    z-index: 99;
+    top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+    border-radius: 5px;
+    display: none;
+}
+.detial1,.detial2 {
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    border-bottom: 1px solid #DDD;
+    font-size: 14px;
+}
+.detial1 input{
+    text-indent: 10px;
+	width: 49%;
+    float: left;
+    border: 0;
+ 	border-radius: 0;
+ 	border-bottom: 1px solid #DDD;
+    padding: 0 0 0 5px;
+    height: 50px;
+    margin-bottom:0;
+    font-size: 14px;
+}
+.detial1 input:first-child{
+	border-right: 1px solid #DDD;
+}
+.detial2-1{
+	padding-left: 15px;
+}
+
+.detial2-2 {
+    font-size: 16px;
+    position: relative;
+    top: 15px;
+    float: right;
+    right: 10px;
+}
+.detial3{
+	height: 74px;
+	border-bottom: 1px solid #DDD;
+}
+.detial3 textarea{
+	font-size: 14px;
+    height: 50px;
+    line-height: 20px;
+    margin-top: 15px;
+	border: 0;
+	border-radius: 0;
+	margin-bottom:0;
+	padding: 5px;
+	width: calc(100% - 24px );
+	width: -moz-calc(100% - 24px );
+	width: -webkit-calc(100% - 24px );
+	float: left;
+    text-indent: 10px;
+}
+.mui-icon-location{
+	float: left;
+	margin-top: 20px;
+	color: #666;
+}
+.adressWin-bottom{
+    margin-top: 10px;
+}
+.adressWin-bottom button{
+	width: 80%;
+    left: 10%;
+    padding: 10px 0;
+    margin: 10px 0;
+    background-color: #e02e24;
+    color: #FFF;
+    border: 0;
+}
+.mui-btn-blue, .mui-btn-primary, input[type=submit]{
+	border: 1px solid #e02e24;
+    background-color: #e02e24;
+}
+
+.botton-btn-sumint{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.consignee{
+    font-size: 16px;
+}
+.mobile{
+    font-size: 16px;
+}

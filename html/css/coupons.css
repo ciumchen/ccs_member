@@ -1,0 +1,44 @@
+.topBar{
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    width: 100%;
+}
+.topBar span{
+    float: left;
+    width: 50%;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.hongbao{
+    border-right: #c9c9c9 solid 1px;
+}
+.active{
+    color: #ff4723;
+}
+.mui-card{
+    box-shadow: none;
+    min-height: 200px;
+    background: #fff;
+}
+
+.mui-card-content-inner{
+    margin-top: 50px;
+    font-size: 16px;
+    text-align: center;
+    color: #bfbfbf;
+}
+.tip_icon img{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 8px;
+}
+.tip_text2{
+    font-size: 12px;
+}
+
+
+
+

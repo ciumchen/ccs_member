@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>数据金币</title>
+	<!-- css -->
+    <link href="../../css/mui.min.css" rel="stylesheet" />
+    <link href="../../css/mui.picker.min.css" rel="stylesheet" />
+    <link href="../../css/home/bottomTap.css" rel="stylesheet" >
+    <link href="../../css/icons-extra.css" rel="stylesheet" >
+	<link href="../../css/myInfo/goldenCoin.css" rel="stylesheet" />
+	<!-- js -->
+    <script src="../../js/mui.min.js"></script>
+    <script src="../../js/mui.picker.min.js"></script>
+</head>
+<body class="golden-coin">
+	<!-- 顶部标题栏 -->
+	
+    <header class="mui-bar mui-bar-nav">
+        <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+        <a class="mui-pull-right">
+            <img src="../../img/icon/icon-more.png" alt="">
+        </a>
+        <h1 class="mui-title">数据金币</h1>
+	</header>
+	
+	<!-- 内容区域 -->
+    <div class="mui-content">
+		<!-- 总览 -->
+        <div class="section section-overview">
+            <div class="section-content">
+                <div class="statistics">
+                    <div class="small_title">金币总量</div>
+                    <div class="statistics_number">800.00 <em>枚</em></div>
+                    <div class="statistics_btn">
+                        <span class="left-span">兑换商品</span>
+                        <span class="right-span exchange-goldencoin">转增</span>
+                    </div>
+                    <div class="today-price">
+                        今日牌价：1.88
+                    </div>
+                </div>
+                <div class="statistics-detail">
+                    <div class="statistics-detail-item">
+                        <div>100.00</div>
+                        <div class="small_title">累计签到</div>
+                    </div>
+                    <div class="statistics-detail-item">
+                        <div>80.00</div>
+                        <div class="small_title">积分奖励</div>
+                    </div>
+                    <div class="statistics-detail-item">
+                        <div>20.00</div>
+                        <div class="small_title">分享奖励</div>
+                    </div>
+                    <div class="statistics-detail-item">
+                        <div>1000.00</div>
+                        <div class="small_title">经营奖励</div>
+                    </div>
+                    <div class="statistics-detail-item">
+                        <div>1000.00</div>
+                        <div class="small_title">累计购买</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 累计签到 -->
+        <div class="section section-checkin">
+            <div class="section-title">
+                <span class="section-title__left">
+                    <img src="../../img/myInfo/goldencoin/checkin/icon-title.png"> 累计签到
+                </span>
+                <div class="section-title__right">
+                    查看规则
+                    <span class="mui-icon mui-icon-arrowright"></span>
+                </div>
+            </div>
+            <div class="mui-row section-content">
+                <div>
+                    <div class="circle-small checked">
+                        +0.3
+                    </div>
+                    <div class="circle-big checked">
+                    </div>
+                    <div class="circle-small em-font">
+                        +0.3
+                    </div>
+                </div>
+                <div class="section-checkin-description">
+                    (已连续签到<em>54</em>天)
+                </div>
+            </div>
+        </div>
+        <!-- 积分奖励-->
+        <div class="section section-credit-reward">
+            <div class="section-title">
+                <span class="section-title__left">
+                    <img src="../../img/myInfo/goldencoin/credit-reward/JF-file-1@3x.png" alt="" srcset=""> 积分奖励
+                </span>
+            </div>
+            <div class="mui-row section-content">
+                <div class="mui-col-xs-2 rewardItem">
+                    <img src="../../img/myInfo/goldencoin/credit-reward/JF-V1@3x.png" alt="" srcset="">
+                    <div>每天奖励</div>
+                    <div class="amountMoney">1-2</div>
+                </div>
+                <div class="mui-col-xs-2 rewardItem">
+                    <img src="../../img/myInfo/goldencoin/credit-reward/JF-V2@3x.png" alt="" srcset="">
+                    <div>每天奖励</div>
+                    <div class="amountMoney">2-3</div>
+                </div>
+                <div class="mui-col-xs-2 rewardItem">
+                    <img src="../../img/myInfo/goldencoin/credit-reward/JF-V3@3x.png" alt="" srcset="">
+                    <div>每天奖励</div>
+                    <div class="amountMoney">3-4</div>
+                </div>
+                <div class="mui-col-xs-2 rewardItem">
+                    <img src="../../img/myInfo/goldencoin/credit-reward/JF-V4@3x.png" alt="" srcset="">
+                    <div>每天奖励</div>
+                    <div class="amountMoney">4-5</div>
+                </div>
+                <div class="mui-col-xs-2 rewardItem">
+                    <img src="../../img/myInfo/goldencoin/credit-reward/JF-V5@3x.png" alt="" srcset="">
+                    <div>每天奖励</div>
+                    <div class="amountMoney">5-6</div>
+                </div>
+                <div class="mui-col-xs-2 rewardItem">
+                    <img src="../../img/myInfo/goldencoin/credit-reward/JF-V6@3x.png" alt="" srcset="">
+                    <div>每天奖励</div>
+                    <div class="amountMoney">6-x</div>
+                </div>
+            </div>
+            <div class="section-footer">
+                注：积分所获得的奖励均为数据金币等价券。
+            </div>
+        </div>
+        <!-- 分享奖励 -->
+        <div class="section section-share">
+            <div class="section-title">
+                <span class="section-title__left">
+                    <img src="../../img/myInfo/goldencoin/share/icon-title.png" alt="" srcset=""> 分享奖励
+                </span>
+            </div>
+            <div class="mui-row section-content" style="width:200px;margin: 0 auto;">
+                <div class="mui-col-xs-6 rewardItem">
+                    <img src="../../img/myInfo/goldencoin/share/first.png" alt="" srcset="">
+                    <div>首次消费</div>
+                    <div class="amountMoney">100</div>
+                </div>
+                <div class="mui-col-xs-6 rewardItem">
+                    <img src="../../img/myInfo/goldencoin/share/second.png" alt="" srcset="">
+                    <div>完成升级</div>
+                    <div class="amountMoney">300</div>
+                </div>
+            </div>
+            <div class="section-footer">
+                注：会员在平台首次消费，直推人获得5/人，完成升级，直推人获得20/级
+            </div>
+        </div>
+        <!-- 经营奖励 -->
+        <div class="section seciton-operate">
+            <div class="section-title">
+                <span class="section-title__left">
+                    <img src="../../img/myInfo/goldencoin/operate/icon-title.png" alt="" srcset=""> 经营奖励
+                </span>
+            </div>
+            <div class="section-footer">
+                <div class="f-text-middle">
+                    <p>平台每月将大数据创造的利润奖励给团队领导人</p>
+                    <p>团队领导人必须是V1及以上会员，团队规模4人以上</p>
+                </div>
+            </div>
+        </div>
+        <!-- 金币明细 -->
+        <div class="section section-detail-list">
+            <div class="section-title">
+                <span class="section-title__left">
+                    <img src="../../img/myInfo/goldencoin/detail-list/icon-title.png" alt="" srcset=""> 金币明细
+                </span>
+            </div>
+            <div class="section-content">
+                <div class="datePicker">
+                    <div type="text" class="input" id='startDate' onclick="chooseDate('start')">
+                        <span class="mui-icon-extra mui-icon-extra-regist"></span>
+                        2018-05-01
+                    </div>
+                    <span>-</span>
+                    <div type="text" class="input" id='endDate' onclick="chooseDate('end')">
+                        <span class="mui-icon-extra mui-icon-extra-regist"></span>
+                        2018-06-01</div><span class="mui-icon mui-icon-search" onclick="search.init()">
+                    </span>
+                </div>
+                <div class="detail-list">
+                    <div class="detail-list-item">
+                        <div class="detail-list-item__time">
+                            <span>2018-05-01 20:16</span>
+                            <span class="detail-list-item--right">金币总额</span>
+                        </div>
+                        <div class="detail-list-item_content">
+                            <span>花费100元奖金兑换50枚金币</span>
+                            <span class="detail-list-item--right add">+50枚</span>
+                        </div>
+                    </div>
+                    <div class="detail-list-item">
+                        <div class="detail-list-item__time">
+                            <span>2018-05-01 20:16</span>
+                            <span class="detail-list-item--right">金币总额</span>
+                        </div>
+                        <div class="detail-list-item_content">
+                            <span>花费100元奖金兑换50枚金币</span>
+                            <span class="detail-list-item--right">-150枚</span>
+                        </div>
+                    </div>
+                    <div class="detail-list-item">
+                        <div class="detail-list-item__time">
+                            <span>2018-05-01 20:16</span>
+                            <span class="detail-list-item--right">金币总额</span>
+                        </div>
+                        <div class="detail-list-item_content">
+                            <span>花费100元奖金兑换50枚金币</span>
+                            <span class="detail-list-item--right add">+50枚</span>
+                        </div>
+                    </div>
+                    <div class="detail-list-item">
+                        <div class="detail-list-item__time">
+                            <span>2018-05-01 20:16</span>
+                            <span class="detail-list-item--right">金币总额</span>
+                        </div>
+                        <div class="detail-list-item_content">
+                            <span>花费100元奖金兑换50枚金币</span>
+                            <span class="detail-list-item--right">-150枚</span>
+                        </div>
+                    </div>
+                    <div class="detail-list-item">
+                        <div class="detail-list-item__time">
+                            <span>2018-05-01 20:16</span>
+                            <span class="detail-list-item--right">金币总额</span>
+                        </div>
+                        <div class="detail-list-item_content">
+                            <span>花费100元奖金兑换50枚金币</span>
+                            <span class="detail-list-item--right add">+50枚</span>
+                        </div>
+                    </div>
+                    <div class="detail-list-item">
+                        <div class="detail-list-item__time">
+                            <span>2018-05-01 20:16</span>
+                            <span class="detail-list-item--right">金币总额</span>
+                        </div>
+                        <div class="detail-list-item_content">
+                            <span>花费100元奖金兑换50枚金币</span>
+                            <span class="detail-list-item--right">-150枚</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+	<!-- 底部导航栏  -->
+
+    <nav class="mui-bar mui-bar-tab home-bom-bor">
+        <a class="mui-tab-item">
+            <span class="mui-icon mui-icon-extra mui-icon-extra-cart"></span>
+            <span class="mui-tab-label">购物</span>
+        </a>
+        <a class="mui-tab-item">
+            <span class="mui-icon mui-icon-extra mui-icon-extra-express"></span>
+            <span class="mui-tab-label">供应商</span>
+        </a>
+        <a class="mui-tab-item mui-active">
+            <span class="mui-icon mui-icon-person-filled"></span>
+            <span class="mui-tab-label">会员中心</span>
+        </a>
+	</nav>
+	
+    <!-- 转赠金币弹窗 -->
+    <div id="dialog-exchange" class="mui-popover x-dialog-wrap">
+        <div class="x-dialog">
+            <div class="x-dialog-header">
+                转赠金币
+                <div class="x-dialog-header__close">
+                    <span class="mui-icon mui-icon-closeempty"></span>
+                </div>
+            </div>
+            <div class="x-dialog-content m-form">
+				<div class="form-item">
+					<div class="form-item-label">受赠人手机号码:</div>
+					<div class="form-item-content f-cb">
+						<input type="text" class="f-fl phone" name="phone" value="13888888888"> 
+						<span class="f-fl name">(<em >张晓明</em>)</span>
+						<button class="f-fl mui-btn phone-submit">确定</button>
+					</div>
+				</div>
+				<div class="form-item coin-number">
+					<div class="form-item-label">金币数量:</div>
+					<div class="form-item-content f-cb">
+						<input type="text" name="number" value="100"> 
+						<div class="info">
+							本次转增将消耗150枚金币<br/>
+							包含15%的手续费
+						</div>
+					</div>
+				</div>	
+				<div class="form-item">
+					<div class="form-item-label">支付密码:</div>
+					<div class="form-item-content f-cb">
+						<input type="password" name="password">
+						<div class="icon-password"></div>
+					</div>
+				</div>
+				<div class="form-item">
+					<button type="button" class="mui-btn btn-submit">确定</button>
+				</div>
+            </div>
+        </div>
+	</div>
+    <!-- 转赠金币成功弹窗 -->
+    <div id="dialog-exchange-success" class="mui-popover x-dialog-wrap">
+		<div class="x-dialog">
+			<div class="x-dialog-header">
+				转赠金币
+				<div class="x-dialog-header__close">
+					<span class="mui-icon mui-icon-closeempty"></span>
+				</div>
+			</div>
+			<div class="x-dialog-content m-form">
+				<div class="success-message">
+					转增成功
+				</div>
+				<div class="form-item">
+					<button type="button" class="mui-btn btn-submit">确定</button>
+				</div>
+			</div>
+		</div>
+	</div>	
+    <script>
+        var search = {
+            init: function () {
+                mui('.dateArr')[0].style.display = "block";
+                mui('.dateArr .date')[0].innerHTML = mui('#startDate')[0].innerHTML + "---" + mui('#endDate')[0].innerHTML;
+            },
+            clear: function () {
+                mui('#startDate')[0].innerHTML = '';
+                mui('#endDate')[0].innerHTML = '';
+                mui('.dateArr .date')[0].innerHTML = '';
+                mui('.dateArr')[0].style.display = "none";
+            }
+
+        }
+        function chooseDate(str) {
+            var ele = null;
+            if (str == 'end') {
+                ele = document.getElementById('endDate')
+            } else {
+                ele = document.getElementById('startDate')
+            }
+            var picker = new mui.DtPicker({ "type": "date" });
+            picker.show(function (rs) {
+                console.log(rs);
+                // ele = rs.text
+                ele.innerHTML = rs.text
+                picker.dispose();
+            });
+        }
+		mui.init();
+		mui('#dialog-exchange-success').popover('show', document.body)
+        mui('body').on('click', '.exchange-goldencoin', function () {
+            mui('#dialog-exchange-success').popover('show', document.body)
+            // mui('#dialog-exchange').popover('show', document.body)
+        })
+        mui('body').on('click', '.x-dialog-header__close', function () {
+            mui('#dialog-exchange-success').popover('hide')
+            // mui('#dialog-exchange').popover('hide')
+        })        
+    </script>
+</body>
+</html>

@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+        <link href="../../css/mui.min.css" rel="stylesheet" />
+        <link href="../../css/mui.picker.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="../../css/home/bottomTap.css">
+        <link rel="stylesheet" href="../../css/icons-extra.css">
+        <link href="../../css/myInfo/myReward.css" rel="stylesheet" />
+        <script src="../../js/mui.min.js"></script>
+        <script src="../../js/mui.picker.min.js"></script>
+    <title>我的奖金</title>
+</head>
+<body>
+    <header class="mui-bar mui-bar-nav">
+        <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+        <a class="mui-pull-right">
+            <img src="../../img/icon/icon-more.png" alt="">
+        </a>
+        <!-- <a class="mui-btn mui-btn-link mui-pull-right">关闭</a> -->
+        <h1 class="mui-title">我的奖金</h1>
+    </header>
+    <div class="mui-content">
+        <div class="totalReward section">
+            <div class="section-content">
+                    <div class="statistics">
+                        <div class="small_title">可提现奖金(元)</div>
+                        <div class="statistics_number"> 1200.00</div>
+                        <div class="statistics_btn">
+                            <span class="left-span">提现</span>
+                            <span class="right-span exchange-goldencoin">兑换金币</span>
+                        </div>
+                    </div>
+                    <div class="mui-row">
+                        <div class="mui-col-xs-3">
+                            <div>100.00</div>
+                            <div class="small_title">本期奖金</div>
+                        </div>
+                        <div class="mui-col-xs-3">
+                            <div>80.00</div>
+                            <div class="small_title">已入账</div>
+                        </div>
+                        <div class="mui-col-xs-3">
+                            <div>20.00</div>
+                            <div class="small_title">待入账</div>
+                        </div>
+                        <div class="mui-col-xs-3">
+                            <div>1000.00</div>
+                            <div class="small_title">可提现</div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">
+                <span class="section-title__left">
+                    <img src="../../img/icon/file.png" alt="" srcset="">
+                    本期奖金明细
+                </span>
+                <div class="section-title__right">
+                    06-07期
+                </div>
+            </div>
+            <div class="mui-row section-content">
+                <div class="mui-col-xs-3 rewardItem">
+                    <img src="../../img/icon/icon-user1.png" alt="" srcset="">
+                    <div>个人消费奖</div>
+                    <div class="amountMoney">20.00</div>
+                </div>
+                <div class="mui-col-xs-3 rewardItem">
+                    <img src="../../img/icon/icon-share.png" alt="" srcset="">
+                    <div>分享奖</div>
+                    <div class="amountMoney">20.00</div>
+                </div>
+                <div class="mui-col-xs-3 rewardItem">
+                    <img src="../../img/icon/icon-manage.png" alt="" srcset="">
+                    <div>开拓和管理奖</div>
+                    <div class="amountMoney">20.00</div>
+                </div>
+                <div class="mui-col-xs-3 rewardItem">
+                    <img src="../../img/icon/icon-car.png" alt="" srcset="">
+                    <div>供应商推荐奖</div>
+                    <div class="amountMoney">20.00</div>
+                </div>
+                <!-- <div class="mui-col-xs-3 rewardItem">
+                    <img src="../../img/icon/icon-house.png" alt="" srcset="">
+                    <div>经营奖</div>
+                    <div class="amountMoney">20.00</div>
+                </div> -->
+            </div>
+            <div class="section-footer">
+                注：个人消费奖、分享奖、供应商推荐奖为本月实时奖金。开拓和管理奖为上个月奖金。
+            </div>
+        </div>
+        <!-- 累计奖金明细 -->
+        <div class="section">
+            <div class="section-title">
+                <span class="section-title__left">
+                    <img src="../../img/icon/icon-morefile.png" alt="" srcset="">
+                    累计奖金明细
+                </span>
+            </div>
+            <div class="mui-row section-content">
+                <div class="mui-col-xs-3 rewardItem">
+                    <img src="../../img/icon/icon-user1.png" alt="" srcset="">
+                    <div>个人消费奖</div>
+                    <div class="amountMoney">40.00</div>
+                </div>
+                <div class="mui-col-xs-3 rewardItem">
+                    <img src="../../img/icon/icon-share.png" alt="" srcset="">
+                    <div>分享奖</div>
+                    <div class="amountMoney">200.00</div>
+                </div>
+                <div class="mui-col-xs-3 rewardItem">
+                    <img src="../../img/icon/icon-manage.png" alt="" srcset="">
+                    <div>开拓和管理奖</div>
+                    <div class="amountMoney">200.00</div>
+                </div>
+                <div class="mui-col-xs-3 rewardItem">
+                    <img src="../../img/icon/icon-car.png" alt="" srcset="">
+                    <div>供应商推荐奖</div>
+                    <div class="amountMoney">200.00</div>
+                </div>
+                <!-- <div class="mui-col-xs-3 rewardItem">
+                    <img src="../../img/icon/icon-house.png" alt="" srcset="">
+                    <div>经营奖</div>
+                    <div class="amountMoney">200.00</div>
+                </div> -->
+            </div>
+        </div>
+        <!-- 历史账单 -->
+        <div class="section">
+            <div class="section-title">
+                <span class="section-title__left">
+                    <img src="../../img/icon/icon-fileli.png" alt="" srcset="">
+                    历史账单
+                </span>
+            </div>
+            <div class="datePicker section-content">
+                <div type="text" class="input" id='startDate' onclick="chooseDate('start')">
+                    <span class="mui-icon-extra mui-icon-extra-regist"></span>
+                    2018-05-01</div>
+                <span>-</span>
+                <div type="text" class="input" id='endDate' onclick="chooseDate('end')" >
+                    <span class="mui-icon-extra mui-icon-extra-regist"></span>
+                    2018-06-01</div><span class="mui-icon mui-icon-search" onclick="search.init()"></span>
+            </div>
+        </div>
+        <!-- 历史账单明细 -->
+        <div class="section">
+            <div class="section-title dateArr">
+                <span class="date section-title__left">2018-05-01---2018-06-01</span>
+                <span class="section-title__right">
+                    <span class="mui-icon mui-icon-closeempty" onclick="search.clear()"></span>
+                </span>
+            </div>
+            <div class="section-content mui-row">
+                <div class="mui-col-xs-3 rewardItem">
+                    <img src="../../img/icon/icon-user1.png" alt="" srcset="">
+                    <div>个人消费奖</div>
+                    <div class="amountMoney">40.00</div>
+                </div>
+                <div class="mui-col-xs-3 rewardItem">
+                    <img src="../../img/icon/icon-share.png" alt="" srcset="">
+                    <div>分享奖</div>
+                    <div class="amountMoney">200.00</div>
+                </div>
+                <div class="mui-col-xs-3 rewardItem">
+                    <img src="../../img/icon/icon-manage.png" alt="" srcset="">
+                    <div>开拓和管理奖</div>
+                    <div class="amountMoney">200.00</div>
+                </div>
+                <div class="mui-col-xs-3 rewardItem">
+                    <img src="../../img/icon/icon-car.png" alt="" srcset="">
+                    <div>供应商推荐奖</div>
+                    <div class="amountMoney">200.00</div>
+                </div>
+                <!-- <div class="mui-col-xs-3 rewardItem">
+                    <img src="../../img/icon/icon-house.png" alt="" srcset="">
+                    <div>经营奖</div>
+                    <div class="amountMoney">200.00</div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <nav class="mui-bar mui-bar-tab home-bom-bor">
+        <a class="mui-tab-item">
+            <span class="mui-icon mui-icon-extra mui-icon-extra-cart"></span>
+            <span class="mui-tab-label">购物</span>
+        </a>
+        <a class="mui-tab-item">
+            <span class="mui-icon mui-icon-extra mui-icon-extra-express"></span>
+            <span class="mui-tab-label">供应商</span>
+        </a>
+        <a class="mui-tab-item mui-active">
+            <span class="mui-icon mui-icon-person-filled"></span>
+            <span class="mui-tab-label">会员中心</span>
+        </a>
+    </nav>
+    <!-- 兑换金币弹窗 -->
+    <div id="dialog-exchange" class="mui-popover x-dialog-wrap">
+        <div class="x-dialog">
+            <div class="x-dialog-header">
+                兑换金币
+                <div class="x-dialog-header__close">
+                    <span class="mui-icon mui-icon-closeempty"></span>
+                </div>
+            </div>
+            <div class="x-dialog-content m-form">
+                <h2>兑换金币将按照今日牌价<em>1.88</em> 等比例兑换</h2>
+				<p>1金币 = (1x今日牌价)奖金</p>
+				<div class="form-item coin-number">
+					<div class="form-item-label">金币数量:</div>
+					<div class="form-item-content f-cb">
+						<input type="text" name="number" value="100">
+						<div class="number-info f-fr">(本次兑换讲消耗奖金188)</div>
+					</div>
+				</div>				
+				<div class="form-item">
+					<div class="form-item-label">支付密码:</div>
+					<div class="form-item-content f-cb">
+						<input type="password" name="password">
+						<div class="icon-password"></div>
+					</div>
+				</div>
+				<div class="form-item">
+					<button type="button" class="mui-btn btn-submit">确定</button>
+				</div>				
+                <!-- <form class="mui-input-group">
+                    <div class="mui-input-row">
+                        <label>金币数量:</label>
+                    <input type="text" class="mui-input-clear">
+                    </div>
+                    <div class="mui-input-row">
+                        <label>支付密码:</label>
+                        <input type="password" class="mui-input-password">
+                    </div>
+                    <div class="mui-button-row">
+                        <button type="button" class="mui-btn btn-submit">确定</button>
+                    </div>
+                </form> -->
+            </div>
+        </div>
+	</div> 
+    <!-- 兑换金币成功弹窗 -->
+    <div id="dialog-exchange-success" class="mui-popover x-dialog-wrap">
+		<div class="x-dialog">
+			<div class="x-dialog-header">
+				兑换金币
+				<div class="x-dialog-header__close">
+					<span class="mui-icon mui-icon-closeempty"></span>
+				</div>
+			</div>
+			<div class="x-dialog-content m-form">
+				<div class="success-message">
+					您成功兑换100金币
+				</div>
+				<div class="form-item">
+					<button type="button" class="mui-btn btn-submit">确定</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <script>
+        var search={
+            init:function(){
+                mui('.dateArr')[0].style.display="block";
+                mui('.dateArr .date')[0].innerHTML = mui('#startDate')[0].innerHTML +"---"+mui('#endDate')[0].innerHTML;
+            },
+            clear:function(){
+                mui('#startDate')[0].innerHTML = '';
+                mui('#endDate')[0].innerHTML = '';
+                mui('.dateArr .date')[0].innerHTML = '';
+                mui('.dateArr')[0].style.display="none";
+            }
+            
+        }
+        function chooseDate(str){
+            var ele =null;
+            if(str=='end'){
+                ele = document.getElementById('endDate')
+            }else{
+                ele = document.getElementById('startDate')
+            }
+            var picker = new mui.DtPicker({"type":"date"});
+            picker.show(function(rs) {
+                console.log(rs);
+                // ele = rs.text
+                ele.innerHTML = rs.text
+                picker.dispose();
+            });
+        }
+        mui.init();
+        mui('body').on('tap','.exchange-goldencoin', function() {
+            mui('#dialog-exchange').popover('show', document.body)
+            // mui('#dialog-exchange-success').popover('show', document.body)
+        })
+        mui('body').on('tap','.x-dialog-header__close', function() {
+            mui('#dialog-exchange').popover('hide')
+            // mui('#dialog-exchange-success').popover('hide')
+        })        
+    </script>
+</body>
+</html>

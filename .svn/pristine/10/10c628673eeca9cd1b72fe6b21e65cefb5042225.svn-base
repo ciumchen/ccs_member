@@ -1,0 +1,79 @@
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #f2c3bb;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #f2c3bb;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #f2c3bb;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #f2c3bb;
+}
+.mui-bar-nav .mui-title{
+    text-align: center;
+}
+.mui-bar-nav~.mui-content{
+    padding-bottom:50px;
+    font-size:14px;
+}
+.mui-content{
+    position: absolute;
+    top: 0;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background-image: url(../../img/login/register-bg.png);
+    background-size: cover;
+    color:#fff;
+    overflow: scroll;
+}
+.mui-content .logo{
+    text-align: center;
+    padding: 30px 0;
+    /* border-top: 1px solid #e27e66; */
+}
+.mui-content .logo img{
+    width: 100px;
+}
+form{
+    width:80%;
+    margin:0 auto;
+}
+input[type=text],input[type=password]{
+    background-color: rgba(0,0,0,0);
+    border: none;
+    border-bottom: 1px solid #ddd;
+    margin: 0;
+    font-size: 14px;
+}
+form .inputItem{
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 15px;
+}
+form .inputItem img{
+    height: 25px;
+    position: absolute;
+    left: 5px;
+    bottom:2px;
+}
+.identity{
+    color: #f2c3bb;
+    position: absolute;
+    right: 0px;
+    bottom: 6px;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 80%;
+}
+input[type=button].submitBtn{
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+    color: #e7532b;
+    margin: 10% 0;
+    padding: 10px;
+    font-size: 17px;
+}

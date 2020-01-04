@@ -1,0 +1,16 @@
+.mui-input-group{
+    margin-top: 60px;
+}
+.mui-input-row label{
+    font-size: 16px;
+}
+.mui-input-row input{
+    font-size: 14px;
+}
+.mui-btn-block{
+    padding: 10px 6px;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 14px;
+    margin-top: 10px;
+}

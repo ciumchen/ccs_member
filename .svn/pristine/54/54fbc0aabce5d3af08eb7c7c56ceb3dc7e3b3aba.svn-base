@@ -1,0 +1,11 @@
+#header .brand{
+    background-image: none;
+}
+#header .logo span{
+    font-size: 16px;
+    font-weight: 600;
+}
+.user_info_title{
+    display: inline-block;
+    width: 100px;
+}

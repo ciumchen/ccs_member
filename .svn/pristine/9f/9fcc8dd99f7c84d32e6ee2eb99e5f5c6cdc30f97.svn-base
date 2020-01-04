@@ -1,0 +1,31 @@
+.list{
+    margin: 7px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.mui-table-view-cell > a:not(.mui-btn){
+    margin: 0px;
+    display: inline;
+}
+.mui-table-view-cell{
+    padding: 8px;
+}
+.mui-table-view::before {
+    background: none;
+}
+.mui-table-view::after {
+    background: none;
+}
+.title {
+    margin: 20px 15px 10px;
+    color: #6d6d72;
+    font-size: 13px;
+}
+.mui-table-view .mui-media-object{
+    width: 70px;
+    height: 70px;
+    max-width: 70px;
+    box-shadow: 1px 2px 2px #c9c9c9;
+    margin-top: 20px;
+}
